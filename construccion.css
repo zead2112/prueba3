@@ -1,0 +1,296 @@
+
+
+.contenedor{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    overflow: hidden
+}
+div{
+    flex-basis: 100%
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+#imagen{
+    height: 800px;
+    position: fixed;
+    width: 1850px;
+    margin: -20px;
+    padding-top: 155px;
+}
+#logo{
+    position: fixed;
+    width: 7%;
+    margin-top: 30px
+}
+a{
+    position: fixed;
+}
+#Venta{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 150px; 
+    font-size: 25px;
+    margin-top: 60px;
+}
+#Alquiler{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 250px; 
+    font-size: 25px;
+    margin-top: 60px;
+}
+#Alojamiento{
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 380px; 
+    font-size: 25px;
+    margin-top: 60px;
+}
+#Contacto{font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    margin-left: 550px; 
+    font-size: 25px;
+    margin-top: 60px;}
+    div{
+        height: 250px;
+        width: 100%;
+        background-color: black;
+        margin: -20px;
+    }
+
+
+video{
+
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 500px;
+    width: 100%;;
+}
+p{
+    color:white;
+    position: fixed;
+    margin-left: 1200px;
+}
+
+#texto2{
+    font-size: 20px;
+    padding-top: 20px;
+    position: fixed;
+    margin-left: 1370px ;
+}
+#texto1{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+#copy{
+    margin-top: 630px;
+    margin-left: 100px;
+position: fixed;
+color: black;
+}
+a{cursor: pointer;}
+
+@media only screen and (min-device-width : 1025px) and (max-device-width : 1850px){
+    #Video{
+        margin-left: 250px;
+        width: 50%;
+        height: 50%;
+        margin-top: 200px;
+    }
+    #texto1{
+        margin-left: 680px;
+        font-size: 23px
+    }
+    #Venta{
+        margin-left: 110px;
+        font-size: 30px;
+        margin-top: 100px
+    }
+    #Alquiler{
+        margin-left: 205px;
+        font-size: 30px;
+        margin-top: 100px
+    
+    }
+    #Alojamiento{
+        margin-left: 320px;
+        font-size: 30px;
+        margin-top: 100px
+    }
+    #Contacto{
+        margin-left: 490px;
+        font-size: 30px;
+        margin-top: 100px
+
+    }
+    #texto2{
+        margin-left: 870px;
+        margin-top: 40px;
+        font-size: 23px
+    }
+    #logo{
+        width: 6%;
+        margin-left: 0px;
+        margin-top: 50px
+    }
+    #copy{
+        top: 120px;
+        font-size: 30px
+    }
+}
+@media only screen and (min-device-width : 300px) and (max-device-width : 750px){
+    #Video{
+        margin-left: 15px;
+       width: 90%;
+       height: 50%;
+       margin-top: 140px;
+    }
+    #texto1{
+        margin-left: 110px;
+        margin-top: 40px;
+        font-size: 10px
+    }
+    #Venta{
+        margin-left: 110px;
+        font-size: 14px;
+        margin-top: 120px
+    }
+    #Alquiler{
+        margin-left: 160px;
+        font-size: 14px;
+        margin-top: 120px
+    }
+    #Alojamiento{
+        margin-left: 220px;
+        font-size: 14px;
+        margin-top: 120px
+    }
+    #Contacto{
+        margin-left: 300px;
+        font-size: 14px;
+        margin-top: 120px
+
+    }
+    #texto2{
+        margin-left: 200px;
+        margin-top: 35px;
+        font-size: 10px
+        
+    }
+    #logo{
+        width: 23%;
+        margin-left: 0px;
+        margin-top: 50px
+    }
+    
+}
+div{
+    margin-left: 1px
+}
+#copy{
+    margin-left: 0px;
+    margin-top: 650px
+}
+#imagen{
+    width: 100%;
+    margin-left:0px;
+     
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+    #Video{
+            margin-left: 100px
+        }
+        #texto1{
+            margin-left: 380px;
+            margin-top: 90px
+        }
+        #Venta{
+            margin-left: 150px;
+            font-size: 25px;
+            margin-top: 50px
+        }
+        #Alquiler{
+            margin-left: 240px;
+            font-size: 25px;
+            margin-top: 50px
+        }
+        #Alojamiento{
+            margin-left: 345px;
+            font-size: 25px;
+            margin-top: 50px
+        }
+        #Contacto{
+            margin-left: 500px;
+            font-size: 25px;
+            margin-top: 50px
+    
+        }
+        #texto2{
+            margin-left: 530px;
+            margin-top: 80px
+            
+        }
+        #logo{
+            width: 7%;
+            margin-top: 10px
+        }
+        }
+
+        @media only screen and (min-device-width : 1080px) and (max-device-width : 1920px){
+            #Video{
+                margin-left: 300px;
+                width: 50%;
+                height: 50%;
+                margin-top: 180px;
+            }
+            #texto1{
+                margin-left: 680px;
+                font-size: 23px
+            }
+            #Venta{
+                margin-left: 110px;
+                font-size: 30px;
+                margin-top: 100px
+            }
+            #Alquiler{
+                margin-left: 205px;
+                font-size: 30px;
+                margin-top: 100px
+            
+            }
+            #Alojamiento{
+                margin-left: 320px;
+                font-size: 30px;
+                margin-top: 100px
+            }
+            #Contacto{
+                margin-left: 490px;
+                font-size: 30px;
+                margin-top: 100px
+        
+            }
+            #texto2{
+                margin-left: 870px;
+                margin-top: 40px;
+                font-size: 23px
+            }
+            #logo{
+                width: 5%;
+                margin-left: 0px;
+                margin-top: 50px
+            }
+            #copy{
+                top: 140px;
+                font-size: 30px
+            }
+        }
